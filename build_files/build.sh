@@ -20,7 +20,6 @@ dnf5 install -y \
   dotnet-sdk-8.0 \
   openssl \
   bat \
-  helm kubernetes-client \
   readline-devel \
   cmake \
   python3-pip python3-devel pipx \
