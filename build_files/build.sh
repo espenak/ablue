@@ -10,7 +10,8 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 
-dnf5 groupinstall -y "Development Tools" "Development Libraries"
+# dnf5 group list --hidden \*devel\*
+dnf5 group install -y development-tools development-libs
 
 dnf5 install -y \
   wl-clipboard \
