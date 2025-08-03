@@ -24,7 +24,7 @@ dnf5 install -y \
   readline-devel \
   cmake \
   python3-pip python3-devel pipx \
-  fzf ripgrep atuin \
+  fzf ripgrep atuin fd-find \
   libtiff-devel libjpeg-devel openjpeg2-devel zlib-devel \
   freetype-devel lcms2-devel libwebp-devel tcl-devel tk-devel \
   harfbuzz-devel fribidi-devel libraqm-devel libimagequant-devel libxcb-devel \
