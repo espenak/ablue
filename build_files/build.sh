@@ -14,16 +14,13 @@ set -ouex pipefail
 dnf5 group install -y development-tools development-libs
 
 dnf5 install -y \
-  wl-clipboard \
-  tmux \
   gcc-c++ \
   dotnet-sdk-8.0 \
-  openssl \
   bat \
   readline-devel \
   cmake \
-  python3-pip python3-devel pipx \
-  fzf ripgrep atuin fd-find \
+  pipx \
+  ripgrep atuin fd-find \
   libtiff-devel libjpeg-devel openjpeg2-devel zlib-devel \
   freetype-devel lcms2-devel libwebp-devel tcl-devel tk-devel \
   harfbuzz-devel fribidi-devel libraqm-devel libimagequant-devel libxcb-devel \
@@ -36,12 +33,9 @@ dnf5 install -y \
   sassc \
   sqlite sqlite-devel \
   git-delta \
-  dnf-plugins-core \
   kitty \
-  zsh
+  ctags
 
-dnf5 config-manager addrepo --from-repofile=https://download.docker.com/linux/fedora/docker-ce.repo
-dnf5 install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 cat > /etc/ssh/sshd_config.d/99-custom.conf << EOF
 # Disable password authentication
