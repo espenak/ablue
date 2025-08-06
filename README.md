@@ -1,6 +1,7 @@
-# image-template
+# ablue
 
-This repository is meant to be a template for building your own custom [bootc](https://github.com/bootc-dev/bootc) image. This template is the recommended way to make customizations to any image published by the Universal Blue Project.
+Just a personal universal blue image. Most of the readme below is from the original template.
+
 
 # Community
 
@@ -116,7 +117,7 @@ Once pushed, go look at the Actions tab on your Github repository's page.  The g
 
 From your bootc system, run the following command substituting in your Github username and image name where noted.
 ```bash
-sudo bootc switch ghcr.io/<username>/<image_name>
+sudo bootc switch ghcr.io/espenak/ablue
 ```
 This should queue your image for the next reboot, which you can do immediately after the command finishes. You have officially set up your custom image! See the following section for an explanation of the important parts of the template for customization.
 

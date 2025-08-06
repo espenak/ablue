@@ -19,7 +19,6 @@ dnf5 install -y \
   bat \
   readline-devel \
   cmake \
-  pipx \
   ripgrep atuin fd-find \
   libtiff-devel libjpeg-devel openjpeg2-devel zlib-devel \
   freetype-devel lcms2-devel libwebp-devel tcl-devel tk-devel \
