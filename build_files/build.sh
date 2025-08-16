@@ -33,7 +33,8 @@ dnf5 install -y \
   sqlite sqlite-devel \
   git-delta \
   kitty \
-  ctags
+  ctags \
+  corectrl
 
 
 cat > /etc/ssh/sshd_config.d/99-custom.conf << EOF
