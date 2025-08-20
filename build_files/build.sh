@@ -33,7 +33,8 @@ dnf5 install -y \
   sqlite sqlite-devel \
   git-delta \
   kitty \
-  ctags
+  ctags \
+  corectrl
 
 # Install sway
 dnf5 install -y \
