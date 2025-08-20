@@ -35,6 +35,40 @@ dnf5 install -y \
   kitty \
   ctags
 
+# Install sway
+dnf5 install -y \
+  sway
+  swaylock \
+  waybar \
+  swayidle \
+  swaybg \
+  swappy \
+  xdg-desktop-portal-wlr \
+  xdg-desktop-portal-gtk \
+
+  polkit \
+  wf-recorder \
+  slurp \
+  grim \
+  SwayNotificationCenter \
+  inotify-tools
+  blueman
+  wob
+  fontawesome-fonts-all
+  papirus-icon-theme
+  pavucontrol
+  nm-connection-editor
+  network-manager-applet
+  rofi-wayland
+  kanshi
+  libsecret
+
+
+# Missing:
+# - satty
+# - cliphist
+# - showmethekey
+# - gcr-4 (think this is already installed via the gcr package)
 
 cat > /etc/ssh/sshd_config.d/99-custom.conf << EOF
 # Disable password authentication
