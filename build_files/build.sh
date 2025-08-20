@@ -46,22 +46,21 @@ dnf5 install -y \
   swappy \
   xdg-desktop-portal-wlr \
   xdg-desktop-portal-gtk \
-
   polkit \
   wf-recorder \
   slurp \
   grim \
   SwayNotificationCenter \
-  inotify-tools
-  blueman
-  wob
-  fontawesome-fonts-all
-  papirus-icon-theme
-  pavucontrol
-  nm-connection-editor
-  network-manager-applet
-  rofi-wayland
-  kanshi
+  inotify-tools \
+  blueman \
+  wob \
+  fontawesome-fonts-all \
+  papirus-icon-theme \
+  pavucontrol \
+  nm-connection-editor \
+  network-manager-applet \
+  rofi-wayland \
+  kanshi \
   libsecret
 
 
