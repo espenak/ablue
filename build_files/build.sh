@@ -38,7 +38,7 @@ dnf5 install -y \
 
 # Install sway
 dnf5 install -y \
-  sway
+  sway \
   swaylock \
   waybar \
   swayidle \
