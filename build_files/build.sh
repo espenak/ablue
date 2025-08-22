@@ -38,6 +38,9 @@ dnf5 install -y \
   solaar
 
 # Install sway
+# Should mostly be self-explanatory, but here are some notes:
+# - gdk-pixbuf2-modules-extra is needed for ppm image suport (which we use with satty and grim for screenshots)
+# - papirys and fontawesome are used for icons in waybar etc.
 dnf5 install -y \
   sway \
   swaylock \
@@ -64,7 +67,8 @@ dnf5 install -y \
   kanshi \
   libsecret \
   mate-polkit \
-  seahorse
+  seahorse \
+  gdk-pixbuf2-modules-extra
 
 
 # Missing:
