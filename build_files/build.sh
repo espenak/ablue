@@ -61,7 +61,8 @@ dnf5 install -y \
   network-manager-applet \
   rofi-wayland \
   kanshi \
-  libsecret
+  libsecret \
+  mate-polkit
 
 
 # Missing:
