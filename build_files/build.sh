@@ -34,7 +34,8 @@ dnf5 install -y \
   git-delta \
   kitty \
   ctags \
-  corectrl
+  corectrl \
+  solaar
 
 # Install sway
 dnf5 install -y \
@@ -62,7 +63,8 @@ dnf5 install -y \
   rofi-wayland \
   kanshi \
   libsecret \
-  mate-polkit
+  mate-polkit \
+  seahorse
 
 
 # Missing:
